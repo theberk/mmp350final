@@ -1,0 +1,24 @@
+
+/*typography 3*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Righteous|Source+Sans+Pro&display=swap');
+
+
+/* global styles */
+@import "css/layout-c.css";
+@import "css/color.css";
+@import "css/typography2.css";
+
+/* page styles */
+@import "css/auth.css";
+@import "css/menu.css";
+@import "css/create.css";
+@import "css/profile.css";
+
+@import "css/publish.css";
+@import "css/posts.css";
+
+/* responsive */
+@import "css/responsive.css";
+
+img { width: 100%; }
+body { margin: 0; }

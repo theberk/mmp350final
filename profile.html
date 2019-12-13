@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>grid</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-storage.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+		 https://firebase.google.com/docs/web/setup#config-web-app -->
+
+	<script>
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "AIzaSyCB8Bb4IO_s3pqcEyt0IaNtsfCGBnF4CX4",
+			authDomain: "mmp-three-fifty.firebaseapp.com",
+			databaseURL: "https://mmp-three-fifty.firebaseio.com",
+			projectId: "mmp-three-fifty",
+			storageBucket: "mmp-three-fifty.appspot.com",
+			messagingSenderId: "29267025222",
+			appId: "1:29267025222:web:ec58ffdc137b3be2ced947"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+//		firebase.analytics();
+	</script>
+</head>
+<body>
+	<div id="container">
+		<div id="title">
+			<h1>MMP 350 Web App</h1>
+		</div>
+		
+		<div id="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="profile">Profile</a></li>
+				<li><a href="users">Users</a></li>
+				<li><a href="support">Support</a></li>
+			</ul>
+		</div>
+		
+		<div id="login">
+			<input id="email" placeholder="Email">
+			<input id="password" placeholder="Password" type="password">
+			<button id="login-button">Login</button>
+			<p id="login-message"></p>
+			<p><a href="create.html">Create new account</a></p>
+		</div>
+		
+		<div id="user-info">
+			<p id="user-name"></p>
+			<button id="logout-button">Logout</button>
+		</div>
+		
+		<div id="main">
+			<img id="profile-image">
+			<input id="profile-name" placeholder="Username">
+			<textarea id="bio" placeholder="Add your bio"></textarea>
+			
+			<div id="add-image">
+				<p>Upload your user profile image:</p>
+				<input id="image-file" type="file" accept="image/png, image/gif, image/jpeg">
+				<button id="submit-image">Upload Image</button>
+			</div>
+			
+			<button id="update-profile">Update Profile</button>
+		</div>
+		
+		<div id="profile">
+			<img src="cat.jpg" alt="">
+			<button id="edit-profile">Edit Profile</button>
+		</div>
+		
+		<div id="social">
+			<ul>
+				<li>Twitter</li>
+				<li>Facebook</li>
+				<li>Instagram</li>
+				<li>LinkedIn</li>
+			</ul>
+		</div>
+	</div>
+	
+	<script src="js/auth.js"></script>
+	<script src="js/profile.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

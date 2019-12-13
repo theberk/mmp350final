@@ -1,0 +1,58 @@
+/* 2nd typographic hierarchy*/
+
+:root {
+    --display-font: 'Righteous', cursive;
+    --text-font: 'Montserrat', sans-serif;
+    --cap-font: 'Source Sans Pro', sans-serif;
+
+}
+
+
+h1 {
+    font-family: var(--display-font);
+}
+
+a {
+    font-family: var(--display-font);
+    font-size: 1.5em;
+}
+
+#user-info{
+    font-family:  var(--display-font);
+}
+
+#login a {
+    font-size: 1em;
+}
+
+#login input {
+    font-family: var(--display-font);
+    font-size: 1em;
+    text-decoration: none;
+}
+
+button {
+    font-family: var(--cap-font);
+    font-size: 1.2em;
+}
+
+#user-info{
+    
+}
+
+.post .text {
+    font-family: var(--text-font);
+    font-size: 1.5em;
+}
+
+.post .author {
+    font-family: var(--cap-font);
+    font-size: 1.2em;
+
+}
+
+.post .date {
+    font-family: var(--cap-font);
+    font-size: .5em;
+    font-weight: thin;
+}

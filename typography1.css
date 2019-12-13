@@ -1,0 +1,36 @@
+/* 1st typographic hierarchy*/
+
+:root{
+    --display-font:'Seaweed Script', cursive;
+    --text-font:'Caveat', cursive;
+    --cap-font:'Roboto Slab', serif;
+}
+    
+h1{font-family: var(--display-font);}
+    
+a{
+    font-family: var(--display-font);
+    font-size:1.5em;
+        }
+    
+button{
+    font-family: var(--text-font);
+        font-size:1.2em;
+}
+    
+.post .text{
+    font-family:var(--text-font);
+    font-size:2em;
+}
+    
+.post .author{
+    font-family:var(--cap-font);
+    font-size:1em;
+}
+    
+.post .date{
+    font-family:var(--cap-font);
+    font-size:.2em;
+    padding-top:10px;
+}
+

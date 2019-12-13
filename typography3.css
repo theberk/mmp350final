@@ -1,0 +1,39 @@
+/*3rd typographic hierarchy*/
+
+:root{
+    --display-font:'Montserrat', sans-serif;
+    --text-font:'Source Sans Pro', sans-serif;
+    --cap-font:'Source Sans Pro', sans-serif;
+    --date-font: 'Courier New';
+}
+    
+h1{font-family: var(--display-font);}
+    
+a{
+    font-family: var(--display-font);
+    font-size:1.5em;
+}
+    
+#login a{font-size:1em;}
+    
+button{
+    font-family: var(--display-font);
+    font-size:1.2em;
+}
+    
+.post .text{
+    font-family:var(--text-font);
+    font-size:1.5em;
+}
+    
+.post .author{
+    font-family:var(--cap-font);
+    font-size:1em;
+    
+}
+    
+.post .date{
+    font-family:var(--date-font);
+    font-size:.5em;
+    font-weight: thin;
+}

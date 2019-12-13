@@ -1,0 +1,51 @@
+   :root{
+        --main-color:#14213D;
+        --complement:#FCA311;
+        --accent:#FFFFFF;
+        --accent2:#E5E5E5;
+}
+
+#title{
+    color: var(--accent2);
+    background-color: var(--main-color);
+        }
+
+button{ 
+    background-color: var(--complement);
+}
+
+#menu{
+    color:var(--accent2);
+}
+
+
+a{
+    
+    color:var(--accent2);}
+
+#profile{
+    background-color: var(--main-color);}
+
+#login{
+    background-color: var(--main-color);}
+
+#social{
+    background-color: var(--main-color);
+    color:var(--complement);
+}
+
+#
+
+#user-info{
+    background-color: var(--main-color);
+}
+
+.post{
+    background: var(--complement);
+    border:10px; 
+    color:  var(--main-color);
+}
+
+
+
+ 

@@ -1,0 +1,41 @@
+#menu ul {
+    display: flex;
+    flex-basis: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    height: 50px;
+    text-decoration: none;
+  
+}
+
+#menu li {
+    text-decoration: none;
+    list-style: none;
+    flex-basis: 100%;
+    background-color: #FCA311;
+    color:#E5E5E5;
+    text-align: center;
+    align-items: baseline;
+    font-size: 1.3em;
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    flex-basis: 100%;
+}
+
+#menu li:hover {
+     color: #20a8c9;
+        background: black;
+
+   
+}
+
+#menu a:hover{
+color: #20a8c9;
+}
+
+

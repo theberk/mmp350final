@@ -1,0 +1,27 @@
+*{box-sizing:border-box;}
+
+#add-image{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: var(--main-color);
+    padding-bottom:30px;
+    margin-bottom:30px;
+}
+
+#image-file{
+    width:175px;
+    text-align:center;
+    padding:20px 0px;
+}
+
+#upProfile{
+    display:flex;
+    flex-direction:column;
+}
+
+#upProfile input, #upProfile textarea{
+    padding:20px 0px;
+    margin-bottom:10px;
+    text-align:center;
+}

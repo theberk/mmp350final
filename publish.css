@@ -1,0 +1,41 @@
+*{box-sizing:border-box;}
+
+#write-post{
+    background-color:var(--main-color);
+    padding:20px;
+    text-align:center;
+    margin-bottom:50px;
+}
+
+#post-text {
+    height:100px;
+    width:100%;
+    bottom:0;
+}
+
+#post-text::placeholder{
+    text-align:center;
+    padding:15px 0px;
+}
+
+#pubBttn{
+    text-align:center;
+    margin-top:5px;
+    margin-bottom:20px;
+
+}
+
+#publish {font-weight:bold;}
+
+#add-image{
+    display:flex;
+    flex-direction:row;
+    padding:20px;
+    background-color:var(--main-color);
+}
+
+#add-image input, #add-post-image p{
+    display:inline;
+    width:200px;
+    margin-right:20px;
+}
