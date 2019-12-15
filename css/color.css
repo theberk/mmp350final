@@ -18,6 +18,9 @@ button{
     color:var(--accent2);
 }
 
+#add-image{
+    color: (--accent2);
+}
 
 a{
     

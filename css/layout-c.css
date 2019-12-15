@@ -77,6 +77,17 @@ button {
     grid-column: 1 /span 2;
 }
 
+#main .post-image{
+    grid-row: 1;
+    grid-column:2 ;
+}
+
+#main .profile-image{
+    height: 5em;
+    width: 5em;
+    margin-bottom: 0
+}
+
 #profile {
     grid-column: 3/span 1;
     grid-row: 2 / span 1;
