@@ -19,7 +19,11 @@ button{
 }
 
 #add-image{
-    color: (--accent2);
+    color: var(--accent2);
+}
+
+#main .posts .text{
+    background-color: var(--complement);
 }
 
 a{
