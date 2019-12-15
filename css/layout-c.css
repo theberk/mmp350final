@@ -85,7 +85,15 @@ button {
 #main .profile-image{
     height: 5em;
     width: 5em;
-    margin-bottom: 0
+    
+}
+
+
+#main .author{
+    grid-row: 2;
+    grid-column: 1;
+    bottom: 0px;
+    left 5px;
 }
 
 #profile {
